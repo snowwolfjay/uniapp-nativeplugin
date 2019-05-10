@@ -1,0 +1,14 @@
+{
+  "nativePlugins": [
+    {
+      "hooksClass": "tech.lita.uni.HJ_AliBC.AliBC_AppProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "HJ-AliBC",
+          "class": "tech.lita.uni.HJ_AliBC.AliBCWXModule"
+        }
+      ]
+    }
+  ]
+}
