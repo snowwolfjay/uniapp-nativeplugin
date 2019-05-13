@@ -1,0 +1,21 @@
+{  
+    "name": "AliBC",  
+    "id": "HJ-AliBC",  
+    "version": "1.0",  
+    "description": "阿里百川",  
+    "_dp_type":"nativeplugin",  
+    "_dp_nativeplugin":{  
+        "android": {  
+            "plugins": [  
+                {  
+                    "type": "module" ,
+                    "name": "HJ-AliBC",  
+                    "class": "tech.lita.uni.HJ_AliBC.AliBCWXModule"  
+                }  
+            ],  
+            "hooksClass": "tech.lita.uni.HJ_AliBC.AliBC_AppProxy",  
+            "integrateType": "aar",  
+            "minSdkVersion": 16
+        }  
+    }  
+}  
